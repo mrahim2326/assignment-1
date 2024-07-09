@@ -1,0 +1,33 @@
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+  height: 80px;
+  width: 1380px;
+}
+.name-fist {
+  font-size: 25px;
+  font-family: Azeret Mono ;
+  font-weight: 600;
+  width: 114px;
+  height: 34px;
+}
+.download-resume{
+  width: 228px;
+  height: 58px;
+  border-radius: 8px;
+  border-color: (13, 19, 33) ;
+  opacity: 0.8;
+  background: none;
+
+}
+.hero-main{
+  background-image: url(./assets/Hero-bg.png);
+  height: 650px;
+  width: 1440px;
+}
+.hero-second{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
