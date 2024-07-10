@@ -1,9 +1,14 @@
+
+h1{
+  font-family: Azeret Mono ;
+}
+/* try to create nav bar name btn*/
 .nav-bar{
   display: flex;
   justify-content: space-between;
-  margin: 10px 30px;
+  margin: 10px 0px;
   height: 80px;
-  width: 1380px;
+  width: 1350px;
 }
 .name-fist {
   font-size: 25px;
@@ -19,15 +24,181 @@
   border-color: (13, 19, 33) ;
   opacity: 0.8;
   background: none;
+  /*hero background area */
 
 }
 .hero-main{
   background-image: url(./assets/Hero-bg.png);
   height: 650px;
   width: 1440px;
+  padding:10px;
 }
+.hero-container{
+  margin-top: px;
+}
+.img-hero{
+    margin: 40px 600px;
+    display: block;
+    
+  
+  }
+
 .hero-second{
   text-align: center;
   align-items: center;
   justify-content: center;
+}.hero-hed{
+  height: 136;
+  width: 998;
+  margin: 20px 220px;
+  font-size: 40px;
+  font-family: Azeret Mono ;
+
+
 }
+.hero-pre{
+  height: 136;
+  width: 852;
+  margin: 40px 270px;
+  font-size: px;
+  font-family: Azeret Mono ;
+
+}
+.hero-btn{
+  height: 66px;
+  width: 208px;
+  background-color: rgb(13, 19, 33); 
+  color: white;
+  font-size: 22px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
+/*why web dvlp section*/
+.web-main{
+  height: 1385px;
+  width: 1140px;
+  background-color: #0D132105 ;
+  margin: 40px 70px  ;
+  border-radius: 16px;
+  padding: 80px 95px ;
+  align-items: center;
+  justify-content: center;
+
+}
+.web-head{
+  text-align: center;
+  font-size: 30px;
+}
+.web-pre{
+  text-align: center;
+  font-size: px;
+}
+.web-first-box{
+  height: 336px;
+  width: 946px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  border-radius: 16px;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  margin: 32px 80px;
+  gap: 80px;
+}
+.head-web-second{
+  margin: 10px  10px  10px ;
+  padding-right: 50px;
+}
+
+
+.we-btn-second{
+  height: 48px;
+  width: 150px;
+  font-size: 20px;
+  margin: 20px 0px;
+  
+}
+.web-second-box{
+  height: 336px;
+  width: 946px;
+  background: linear-gradient(90.00deg, rgba(255, 255, 255, 0),rgb(255, 255, 255) 100%);
+  border-radius: 16px;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  margin: 32px 80px;
+  gap: 80px;
+}
+/*youtube and ins*/
+.inspiration{
+  text-align: center;
+justify-content: center;
+padding: 0px ;
+}
+
+
+.video{
+  width: 1140px;
+  height: 622px;
+  margin: 30px 150px;
+  border-radius: 16px;
+}
+/* current target*/
+.current-target{
+  text-align: center;
+  margin: 50px ;
+}
+.program-target{
+  display: flex;
+  margin: 30px 160px;
+  justify-content: space-between;
+}
+.html-decoration{
+  height: 300px;
+  width: 364px;
+  padding: 40px;
+  background-color: #FF4C1E0D;
+  margin: 20px ;
+}
+.css-decoration{
+  height: 300px;
+  width: 364px;
+  padding: 40px;
+  background-color: #004CE80D      ;
+  margin: 20px ;
+}
+.java-decoration{
+  height: 300px;
+  width: 364px;
+  padding: 40px;
+  background-color: #FFDF000D  ;
+  margin: 20px ;
+}
+
+.hyper-refarence{
+  font-size: 20px;
+  color:#0D1321 ;
+}
+.next-target{
+text-align: center;
+}
+/*my next target*/
+.react-style{
+  display: flex;
+  margin: 30px 180px;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 20px;
+
+}
+.next-target-pre{
+  margin:0px 0px 0px 190px;
+}
+.next-target-pre-second{
+  margin:0px 0px 0px 145px;
+}
+
+ /*i need support*/
+ .i-need-support{
+  background-image: url(./assets/handshake.jpg);
+ }
