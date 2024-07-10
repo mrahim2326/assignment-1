@@ -2,6 +2,12 @@
 h1{
   font-family: Azeret Mono ;
 }
+p{
+  font-size: 16px;
+  font-family: Azeret Mono ;
+  color: #0D1321;
+
+}
 /* try to create nav bar name btn*/
 .nav-bar{
   display: flex;
@@ -24,9 +30,10 @@ h1{
   border-color: (13, 19, 33) ;
   opacity: 0.8;
   background: none;
+  font-size: 20px;
+}
   /*hero background area */
 
-}
 .hero-main{
   background-image: url(./assets/Hero-bg.png);
   height: 650px;
@@ -136,12 +143,22 @@ justify-content: center;
 padding: 0px ;
 }
 
+.video-main
+  {
+    width: 1140px;
+    height: 622px;
+    margin: 40px 70px  ;
+    padding: 80px 95px ;
+    align-items: center;
+  }
 
 .video{
   width: 1140px;
   height: 622px;
-  margin: 30px 150px;
   border-radius: 16px;
+  border: 1px #0D1321 solid;
+  align-items: center;
+  padding: 10px;
 }
 /* current target*/
 .current-target{
@@ -149,30 +166,37 @@ padding: 0px ;
   margin: 50px ;
 }
 .program-target{
-  display: flex;
-  margin: 30px 160px;
+  height: 385px;
+  width: 1140px;
+  margin: 40px 150px;
+  border-radius: 16px;
+  align-items: center;
   justify-content: space-between;
+  display: flex;
 }
 .html-decoration{
   height: 300px;
   width: 364px;
   padding: 40px;
   background-color: #FF4C1E0D;
-  margin: 20px ;
+  margin: 20px 0px ;
+  border-radius: 15px;
 }
 .css-decoration{
   height: 300px;
   width: 364px;
   padding: 40px;
   background-color: #004CE80D      ;
-  margin: 20px ;
+  margin: 20px 100px ;
+  border-radius: 15px;
 }
 .java-decoration{
   height: 300px;
   width: 364px;
   padding: 40px;
   background-color: #FFDF000D  ;
-  margin: 20px ;
+  margin: 20px 0px ;
+  border-radius: 15px;
 }
 
 .hyper-refarence{
@@ -185,10 +209,11 @@ text-align: center;
 /*my next target*/
 .react-style{
   display: flex;
-  margin: 30px 180px;
+  margin: 30px 150px;
   border: 1px solid;
   border-radius: 15px;
   padding: 20px;
+  
 
 }
 .next-target-pre{
@@ -199,6 +224,61 @@ text-align: center;
 }
 
  /*i need support*/
- .i-need-support{
+
+
+.i-need-support{
   background-image: url(./assets/handshake.jpg);
- }
+  height: 385px;
+  width: 1140px;
+  margin: 40px 70px  ;
+  border-radius: 16px;
+  padding: 80px 95px ;
+  align-items: center;
+  justify-content: center;
+
+}
+.need-support{
+  text-align: center;
+}
+.need-support-head{
+  margin: 20px;
+  padding: 20px 30px;
+  font-size: 40px;
+}
+
+.feedback{
+  height: 57px;
+  width:548px ;
+  border-radius: 15px;
+  border: none;
+  font-size: 22px;
+  margin-top: 100px;
+}
+.btn-support{
+  height: 57px;
+  width:100px ;
+  border-radius: 15px;
+  border: none;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+.footer-area{
+  width: 1440px;
+  height: 100px;
+  background-color: #0D132108;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.open-head{
+  margin: 50px;
+
+}
+
+.social-media{
+  margin: 50px;
+
+}
+
