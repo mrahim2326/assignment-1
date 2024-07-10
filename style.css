@@ -32,6 +32,10 @@ p{
   background: none;
   font-size: 20px;
 }
+.download-resume:hover{
+  background-color: #0D1321;
+  color: aliceblue;
+}
   /*hero background area */
 
 .hero-main{
@@ -81,6 +85,10 @@ p{
   margin-top: 20px;
 
 }
+.hero-btn:hover{
+  background-color: rgb(22, 53, 110);
+}
+
 /*why web dvlp section*/
 .web-main{
   height: 1385px;
@@ -124,6 +132,10 @@ p{
   font-size: 20px;
   margin: 20px 0px;
   
+}
+.we-btn-second:hover{
+  background-color: #0D1321;
+  color: aliceblue;
 }
 .web-second-box{
   height: 336px;
@@ -175,8 +187,8 @@ padding: 0px ;
   display: flex;
 }
 .html-decoration{
-  height: 300px;
   width: 364px;
+  height: 300px;
   padding: 40px;
   background-color: #FF4C1E0D;
   margin: 20px 0px ;
@@ -203,16 +215,25 @@ padding: 0px ;
   font-size: 20px;
   color:#0D1321 ;
 }
+.hyper-refarence:hover{
+  background-color: rgb(0, 0, 0);
+  color: aqua;
+
+}
 .next-target{
 text-align: center;
 }
 /*my next target*/
 .react-style{
+  height: 85px;
+  width: 1140px;
+  margin: 40px 70px  ;
+  border-radius: 16px;
+  padding: 80px 95px ;
+  justify-content: center;
+  border:1px solid #0D1321;
   display: flex;
-  margin: 30px 150px;
-  border: 1px solid;
-  border-radius: 15px;
-  padding: 20px;
+
   
 
 }
@@ -253,6 +274,11 @@ text-align: center;
   border: none;
   font-size: 22px;
   margin-top: 100px;
+
+}
+.feedback:hover{
+  background-color: #0D1321;
+  color: aliceblue;
 }
 .btn-support{
   height: 57px;
@@ -261,6 +287,11 @@ text-align: center;
   border: none;
   font-size: 22px;
   margin-top: 40px;
+}
+.btn-support:hover{
+  background-color: #0D1321;
+  border: none;
+  color: aliceblue;
 }
 
 .footer-area{
@@ -278,7 +309,10 @@ text-align: center;
 }
 
 .social-media{
-  margin: 50px;
+  margin: 50px
 
+}
+.social-media-link-design{
+  margin: 0px 7px;
 }
 
